@@ -49,7 +49,7 @@ interface PaymentorderInterface extends RequestInterface
     const RISK_INDICATOR = 'risk_indicator';
     const INITIATING_SYSTEM_AGENT = 'initiatingSystemUserAgent';
     const PRODUCT_NAME = 'product_name';
-	const CLIENT_INFO  = 'client_info';
+    const CLIENT_INFO  = 'client_info';
 
     const IMPLEMENTATION = 'implementation';
 
@@ -330,14 +330,14 @@ interface PaymentorderInterface extends RequestInterface
      */
     public function getImplementation();
 
-	/**
-	 * @return ClientInfoInterface
-	 */
-	public function getClientInfo();
+    /**
+     * @return ClientInfoInterface
+     */
+    public function getClientInfo();
 
-	/**
-	 * @param ClientInfoInterface $clientInfo
-	 * @return $this
-	 */
-	public function setClientInfo( $clientInfo );
+    /**
+     * @param ClientInfoInterface $clientInfo
+     * @return $this
+     */
+    public function setClientInfo($clientInfo);
 }
