@@ -500,7 +500,7 @@ class Paymentorder extends RequestResource implements PaymentorderInterface
      * @param ClientInfoInterface $clientInfo
      * @return $this
      */
-    public function setClientInfo( $clientInfo )
+    public function setClientInfo($clientInfo)
     {
         return $this->offsetSet(self::CLIENT_INFO, $clientInfo);
     }
